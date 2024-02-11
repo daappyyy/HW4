@@ -1,38 +1,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Title</title>
+    <title>Mondrian table</title>
 </head>
-<body>
+<body class="mondrian-body">
+    <div class="head">
+        <div class="container">
+            <h1>Mondrian table</h1>
+            <a href="table.html" target="_blank", class="headlink">Another table here!</a>   
+        </div>
+    </div> 
+    <div class="table-section">
     <div class="container">
-    <table>
-        <tr>
-            <td colspan="2", class="gray">1</td>
-            <td class="pink">3</td>
-            <td class="pink">4</td>
-            <td class="pink">5</td>
-            <td rowspan="3", class="light-green">6</td>
-        </tr>
-        <tr>
-            <td rowspan="2", class="dark-green">7</td>
-            <td class="pink">8</td>
-            <td rowspan="2", colspan="3", class="yellow">9</td>
-        </tr>
-        <tr>
-            <td class="pink">14</td>
-        </tr>
-        <tr>
-            <td rowspan="2", colspan="3", class="blue">19</td>
-
-            <td class="pink">22</td>
-            <td class="pink">23</td>
-            <td rowspan="2", class="dark-green">24</td>
-        </tr>
-        <tr>
-            <td colspan="2" class="gray">28</td>
-        </tr>
-    </table>
+        <table class="mondrian-table">
+            <tr>
+                <td colspan="2", class="orange">1</td>
+                <td class="pink">3</td>
+                <td class="pink">4</td>
+                <td class="pink">5</td>
+                <td rowspan="3", class="light-green">6</td>
+            </tr>
+            <tr>
+                <td rowspan="2", class="dark-green">7</td>
+                <td class="pink">8</td>
+                <td rowspan="2", colspan="3", class="yellow">9</td>
+            </tr>
+            <tr>
+                <td class="pink">14</td>
+            </tr>
+            <tr>
+                <td rowspan="2", colspan="3", class="blue">19</td>
+                <td class="pink">22</td>
+                <td class="pink">23</td>
+                <td rowspan="2", class="dark-green">24</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="orange">28</td>
+            </tr>
+        </table>
+    </div>
 </div>
 </body>
 </html>
