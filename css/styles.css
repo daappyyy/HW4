@@ -146,11 +146,8 @@ table {
 .status{
     cursor: pointer;
     font-size: 12px;
-    font-weight: 400px;
     border-radius: 12px;
-    padding: 4px 24px;
-    width: 83px;
-    height: 28px;
+    padding: 8px 24px;
 }
 .lightBlue{
     background: #ededfe;
@@ -172,7 +169,7 @@ table {
     background: #f8f9fb;
     color: #bdbcdb;
     font-size: 12px;
-    font-weight: 400px;
+    font-weight: 400;
     border-radius: 12px;
     padding: 4px 24px;
     width: 83px;
